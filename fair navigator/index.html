@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fair Navigator</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Fair Navigator</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#catalogue">Find Place</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#map">Map</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="p-2" style="background-color: rgba(0, 0, 0, 0.582);">
+                   <div class="masthead-subheading">Welcome To the 42nd Kaduna Trade Fair!</div>
+                    <div class="masthead-heading text-uppercase text-primary">Navigation App</div>
+                    <a class="btn btn-light btn-outline-dark btn-xl text-uppercase js-scroll-trigger mr-2" href="#catalogue">Find your way</a>
+                    <a class="btn btn-outline-light btn-xl text-uppercase js-scroll-trigger ml-2" href="#about">Tell Me More</a>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Catalogue-->
+        <section class="page-section bg-light" id="catalogue">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Find Shop</h2>
+                    <h3 class="section-subheading text-muted">We'll guide you through the Trade Fair event and help you navigate your way around the stores.
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <!--search bar-->
+                    <form class="w-100 mb-2">
+                        <div class="form-group">
+                        <input type="text" class="px-4 py-2 form-control form-control-user rounded-pill w-100 shadow-sm" placeholder="Search for Name/Category/Place">
+                        </div>
+                    </form>    
+                    </div>
+                    <!--Categories-->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="btn btn-dark p-2 mb-2 w-100 text-uppercase">
+                                    food
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="btn btn-primary p-2 mb-2 w-100 text-uppercase">
+                                    Furniture
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="btn btn-danger p-2 mb-2 w-100 text-uppercase">
+                                    Accessories
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="btn btn-success p-2 mb-2 w-100 text-uppercase">
+                                    Clothes
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="btn btn-secondary p-2 mb-2 w-100 text-uppercase">
+                                    shoes
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="btn btn-light btn-outline-dark p-2 mb-2 w-100 text-uppercase">
+                                    Most Common
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="h2">Showing <span class="text-success">All</span> Categories</div>
+                <div class="row">
+                    <!--venture card 1-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                           <div class="shadow bg-light text-center py-4 mx-2 my-4">
+                            <div class="text-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A1</div>
+                            <img src="assets/img/portfolio/01-thumbnail.jpg" class="img rounded-circle w-50 shadow-sm" 
+                            id="venture-img"
+                            />
+                            <h4 id="venture-name" class="text-uppercase p-2">Tea Shop</h4>
+                            <p id="venture-details" class=" p-2">Lorem, ipsum dolor sit amet consectetur adipisicing, reiciendis quibusdam tenetur inventore eveniet quod.</p>
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="btn rounded-pill btn-danger w-50">View more</div>
+                            </div> 
+                            </a>                        
+                        
+                    </div>
+                    <!--venture card 2-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="shadow bg-light text-center py-4 mx-2 my-4">
+                            <div class="text-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A2</div>
+                         <img src="assets/img/portfolio/02-thumbnail.jpg" class="img rounded-circle w-50 shadow-sm" 
+                         id="venture-img"
+                         />
+                         <h4 id="venture-name" class="text-uppercase p-2">Tea Shop</h4>
+                         <p id="venture-details" class=" p-2">Lorem, ipsum dolor sit amet consectetur adipisicing, reiciendis quibusdam tenetur inventore eveniet quod.</p>
+                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                             <div class="btn rounded-pill btn-danger w-50">View more</div>
+                         </div> 
+                         </a>                        
+                     
+                    </div>
+                    <!--venture card 3-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="shadow bg-light text-center py-4 mx-2 my-4">
+                            <div class="text-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A3</div>
+                        <img src="assets/img/portfolio/03-thumbnail.jpg" class="img rounded-circle w-50 shadow-sm" 
+                        id="venture-img"
+                        />
+                        <h4 id="venture-name" class="text-uppercase p-2">Tea Shop</h4>
+                        <p id="venture-details" class=" p-2">Lorem, ipsum dolor sit amet consectetur adipisicing, reiciendis quibusdam tenetur inventore eveniet quod.</p>
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="btn rounded-pill btn-danger w-50">View more</div>
+                        </div> 
+                        </a>                        
+                    
+                    </div>
+                </div>
+                </div><!--end of cards row-->
+            </div>
+        </section>
+
+        <!-- Map-->
+        <section id="map" class="py-5 text-center">
+            <h2 class="section-heading text-uppercase">Map</h2>
+            <h3 class="section-subheading text-muted">2020 map of Kaduna International Trade Fair</h3>
+            <div class="container-fluid">
+            <img class="img-fluid img w-100" src="http://archconnigeria.com/wp-content/uploads/2013/05/trade-master-plan-B.jpg" />
+            </div>
+            
+        </section>
+        <!-- About-->
+       <section class="page-section" id="about">
+            <div class="container justify-content-center">
+                <div class="text-center m-0">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Trade Fair Navigator</h3>
+                </div>
+                <div class="row bg-light p-4 text-center justify-content-center">
+                    <div class="col-8">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quo perferendis consequatur dolor, laboriosam animi! Numquam illo eos fugiat libero.
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, quam? Vitae eos doloremque nulla optio minima architecto fugiat, vero vel sequi doloribus perferendis corporis consectetur corrupti. Architecto consectetur ad aperiam?
+                        </div>
+                        <p>To learn about the annual trade fair click <a href="#">here</a></p>
+                    </div>
+                    
+
+                </div>
+                <a href="#catalogue">
+                <div class="text-center m-auto btn btn-lg btn-primary shadow-sm text-uppercase">
+                            Start exploring now
+                    </div>
+                </a>
+                
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="modal-body">
+                                    <!-- Venture Details Go Here-->
+                                    <div></div>
+                                    <h2 class="text-uppercase float-right">Name</h2>
+                                    <div class="text-center float-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A3</div>
+                                    <p class="p-2"></p>
+                                    <div class="img-fluid w-100" 
+                                        style="height: 300px; background-position:center; background-image: url('assets/img/portfolio/01-full.jpg');">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus corporis dolorem quae tempora tenetur libero sint. Assumenda, minus laborum.
+                                </div>
+
+                                <div class="text-dark mt-2 h3">Featured products</div>
+                                    <ul class="list-inline">
+                                        <li>Shoes</li>
+                                        <li>Bags</li>
+                                        <li>Accessories</li>
+                                    </ul>
+                                <div class="h3 float-left">
+                                    Store No.: A3
+                                </div>
+                                <a href="#map">
+                                    <button class="btn btn-success btn-lg m-2" data-dismiss="modal" type="button">
+                                        View on map
+                                    </button> 
+                                </a>
+                                <div class="text-left">
+                                    <ul class="list-inline">
+                                        <p class="text-muted m-0 p-0">Store details</p>
+                                        <li>+234 1234 564</li>
+                                        <li>website@.com</li>
+                                        <li>branch address </li>
+                                    </ul> 
+                                </div>
+                                
+                                    
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="modal-body">
+                                    <!-- Venture Details Go Here-->
+                                    <div></div>
+                                    <h2 class="text-uppercase float-right">Name</h2>
+                                    <div class="text-center float-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A2</div>
+                                    <p class="p-2"></p>
+                                    <div class="img-fluid w-100" 
+                                        style="height: 300px; background-position:center; background-image: url('assets/img/portfolio/02-full.jpg');">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus corporis dolorem quae tempora tenetur libero sint. Assumenda, minus laborum.
+                                </div>
+
+                                <div class="text-dark mt-2 h3">Featured products</div>
+                                    <ul class="list-inline">
+                                        <li>Shoes</li>
+                                        <li>Bags</li>
+                                        <li>Accessories</li>
+                                    </ul>
+                                <div class="h3 float-left">
+                                    Store No.: A2
+                                </div>
+                                <a href="#map">
+                                    <button class="btn btn-success btn-lg m-2" data-dismiss="modal" type="button">
+                                        View on map
+                                    </button> 
+                                </a>
+                                <div class="text-left">
+                                    <ul class="list-inline">
+                                        <p class="text-muted m-0 p-0">Store details</p>
+                                        <li>+234 1234 564</li>
+                                        <li>website@.com</li>
+                                        <li>branch address </li>
+                                    </ul> 
+                                </div>
+                                
+                                    
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+                <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6">
+                                        <div class="modal-body">
+                                            <!-- Venture Details Go Here-->
+                                            <div></div>
+                                            <h2 class="text-uppercase float-right">Name</h2>
+                                            <div class="text-center float-left px-2 py-2 m-0 bg-primary w-25 h2 text-center rounded-sm shadow-sm">A3</div>
+                                            <p class="p-2"></p>
+                                            <div class="img-fluid w-100" 
+                                                style="height: 300px; background-position:center; background-image: url('assets/img/portfolio/03-full.jpg');">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="text-muted">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit temporibus corporis dolorem quae tempora tenetur libero sint. Assumenda, minus laborum.
+                                        </div>
+        
+                                        <div class="text-dark mt-2 h3">Featured products</div>
+                                            <ul class="list-inline">
+                                                <li>Shoes</li>
+                                                <li>Bags</li>
+                                                <li>Accessories</li>
+                                            </ul>
+                                        <div class="h3 float-left">
+                                            Store No.: A3
+                                        </div>
+                                        <a href="#map">
+                                            <button class="btn btn-success btn-lg m-2" data-dismiss="modal" type="button">
+                                                View on map
+                                            </button> 
+                                        </a>
+                                        <div class="text-left">
+                                            <ul class="list-inline">
+                                                <p class="text-muted m-0 p-0">Store details</p>
+                                                <li>+234 1234 564</li>
+                                                <li>website@.com</li>
+                                                <li>branch address </li>
+                                            </ul> 
+                                        </div>
+                                        
+                                            
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
